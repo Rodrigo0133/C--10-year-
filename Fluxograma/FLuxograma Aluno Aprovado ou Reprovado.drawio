@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+  <diagram name="Página-1" id="rrqdBHtelIrX6Av2DMnf">
+    <mxGraphModel dx="1371" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="03_V07YkFWv_MwGFmsf8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="03_V07YkFWv_MwGFmsf8-1" target="03_V07YkFWv_MwGFmsf8-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="03_V07YkFWv_MwGFmsf8-2" target="03_V07YkFWv_MwGFmsf8-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-2" value="Ler Nota do aluno" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="03_V07YkFWv_MwGFmsf8-6" target="03_V07YkFWv_MwGFmsf8-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-20" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="03_V07YkFWv_MwGFmsf8-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="03_V07YkFWv_MwGFmsf8-6" target="03_V07YkFWv_MwGFmsf8-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-21" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="03_V07YkFWv_MwGFmsf8-19" vertex="1" connectable="0">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-6" value="Se Nota do aluno&amp;gt;9.5" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="290" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="03_V07YkFWv_MwGFmsf8-15" target="03_V07YkFWv_MwGFmsf8-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-15" value="Escrever O aluno está aprovado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="03_V07YkFWv_MwGFmsf8-18" target="03_V07YkFWv_MwGFmsf8-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-18" value="Escrever O aluno está reprovado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="03_V07YkFWv_MwGFmsf8-22" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
