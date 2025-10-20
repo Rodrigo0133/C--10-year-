@@ -12,16 +12,16 @@ int main()
 	int num, Tentativa;
 		num = rand() % 99 + 1;
 	do {
-		cout << "Diga um número\n";
+		cout << "Diga um nÃºmero\n";
 			cin >> Tentativa;
 			if (Tentativa < num) {
-				cout << "O número está acima\n";
+				cout << "O nÃºmero estÃ¡ acima\n";
 			}
 			if (Tentativa > num) {
-				cout << "O número está abaixo\n";
+				cout << "O nÃºmero estÃ¡ abaixo\n";
 			}
 	} while (Tentativa != num);
-	cout << "O número está Certo \n"
+	cout << "O nÃºmero estÃ¡ Certo \n";
 
 	return 0;
 }
