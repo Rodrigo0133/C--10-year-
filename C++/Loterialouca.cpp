@@ -13,7 +13,7 @@ int main()
 	do{
 	    Cont1 = 0;
 	for (i = 0; i <= 5; i++) {
-		num[i] =(rand() % 49) + 1;
+		num[i] =(rand() % 6) + 1;
 	 for (j = 0; j < i; j++) {
 	    if(num[j] == num[i]){
 	        Cont1++;
@@ -29,9 +29,10 @@ int main()
 			cout << "Escreveste um número baixo, seu boneco, é entre 1 a 50 \n";
 			i--;
 		}
-		if(n==num[0]||n==num[1]||n==num[2]||n==num[3]||n==num[4]){
-		    Cont++;
-		}}
+for (j = 0; j <= 5; j++) {
+	    if(n == num[j]){
+	        Cont++;
+		}}}
 		do {
 		aux300 = 0;
 		for (i = 0; i < 5; i++) {
